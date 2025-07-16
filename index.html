@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Mobile Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="./assets/applelogo.jpg" alt="Apple Logo" height="40">
+            <span>Apple Mobiles</span>
+        </div>
+        <nav>
+            <a href="#products">Mobiles</a>
+            <a href="#ipads">iPads</a>
+            <a href="#airpods">AirPods</a>
+            <a href="#macbook">MacBook</a>
+            <a href="#iwatch">iWatch</a>
+            <a href="#about">About</a>
+            <a href="#cart">Cart</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Experience <span style="color: #727272;">Innovation</span>.</h1>
+            <p>The latest Apple mobiles, crafted for you. Shop the future today.</p>
+            <a href="#products" class="cta-btn">Shop Now</a>
+        </div>
+        <img src="./assets/3950af0f-c680-4635-9119-44ae1ff8547d-converted.png" alt="iPhone Showcase" class="hero-img">
+    </section>
+    <section id="products" class="products-section">
+        <h2>Featured Mobiles</h2>
+        <div class="products-grid">
+            <!-- Product Cards -->
+            <div class="product-card">
+                <img src="./assets/15pro.png" alt="iPhone 15 Pro">
+                <h3>iPhone 15 Pro</h3>
+                <p>From $999</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="./assets/15.png" alt="iPhone 15">
+                <h3>iPhone 15</h3>
+                <p>From $799</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="./assets/14.png" alt="iPhone 14">
+                <h3>iPhone 14</h3>
+                <p>From $699</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="./assets/13.png" alt="iPhone 13">
+                <h3>iPhone 13</h3>
+                <p>From $599</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+    <section id="ipads" class="products-section">
+        <h2>Featured iPads</h2>
+        <div class="products-grid">
+            <div class="product-card">
+                <img src="./assets/padpro.jpg" alt="iPad Pro">
+                <h3>iPad Pro</h3>
+                <p>From $1099</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="./assets/padair.jpg" alt="iPad Air">
+                <h3>iPad Air</h3>
+                <p>From $799</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="./assets/10thgen.png" alt="iPad 10th Gen">
+                <h3>iPad 10th Gen</h3>
+                <p>From $599</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+    <section id="airpods" class="products-section">
+        <h2>Featured AirPods</h2>
+        <div class="products-grid">
+            <div class="product-card">
+                <img src="./assets/airpodspro.jpg" alt="AirPods Pro">
+                <h3>AirPods Pro</h3>
+                <p>From $249</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="./assets/airpods3rd.jpg" alt="AirPods 3rd Gen">
+                <h3>AirPods 3rd Gen</h3>
+                <p>From $179</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+    <section id="macbook" class="products-section">
+        <h2>Featured MacBook</h2>
+        <div class="products-grid">
+            <div class="product-card">
+                <img src="./assets/macpro.png" alt="MacBook Pro">
+                <h3>MacBook Pro</h3>
+                <p>From $1999</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="./assets/macair.png" alt="MacBook Air">
+                <h3>MacBook Air</h3>
+                <p>From $1199</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+    <section id="iwatch" class="products-section">
+        <h2>Featured iWatch</h2>
+        <div class="products-grid">
+            <div class="product-card">
+                <img src="./assets/ultra2.png" alt="Apple Watch Ultra">
+                <h3>Apple Watch Ultra 2</h3>
+                <p>From $799</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="./assets/series10.png" alt="Apple Watch Series 9">
+                <h3>Apple Watch Series 9</h3>
+                <p>From $399</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about-section">
+        <h2>About Our Store</h2>
+        <p>We bring you the latest and greatest Apple mobiles, with a seamless shopping experience and world-class support. Discover innovation, design, and performance in every device.</p>
+    </section>
+    <section id="cart" class="cart-section">
+        <h2>Your Cart</h2>
+        <div id="cart-items">
+            <p>Your cart is empty.</p>
+        </div>
+        <button id="checkout-btn" disabled>Checkout</button>
+    </section>
+    <footer>
+        <p>&copy; 2025 Apple Mobile Store. Inspired by Apple. For demo purposes only.</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
